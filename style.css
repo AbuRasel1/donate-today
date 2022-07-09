@@ -14,9 +14,10 @@ body{
 }
 h1{
     font-size: 30px;
+    
 }
 .color{
-    color:blue;
+    color:whitesmoke;
     
 }
 
@@ -29,12 +30,13 @@ h1{
 }
 .donate-button{
     text-decoration: none;
-    background-color: orange;
-    padding: 20px;
+    background-color: tomato;
+    padding: 10px;
     border-radius: 5px;
-    background-image: linear-gradient(orange, tomato);
-    color: white;
+    background-image: linear-gradient( tomato);
+    color:white;
     font-weight: 400px;
+    cursor: pointer;
     
 
 }
@@ -55,7 +57,8 @@ h1{
 }
 #box {
     width: 50%;
-    margin-left: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: center;
     font-size: 20px;
     border-top: none;
@@ -63,8 +66,108 @@ h1{
     border-left: none;
     outline: none;
     border-bottom-color: rgb(201, 201, 201);
-}
-.add-margin{
-    margin-left: 250px;
 
 }
+.donate-plan{
+    
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2px;
+    padding-left: 20px;
+    box-shadow: none;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding: 5px;
+    
+        
+    
+    }
+    .donate-plan1{
+        text-align: center;
+    
+        width: 30%;
+        margin-left: 2%;
+        margin-right: 2px;
+        padding-left: 20px;
+        box-shadow: none;
+        border-radius: 10px;
+        background-color: lightpink;
+    
+    }
+    .display{
+        display: flex;
+    }
+
+    .donation-plan2{
+        text-align: center;
+    
+        width: 30%;
+        margin-left: 2%;
+        margin-right: 2px;
+        padding-left: 2px;
+        box-shadow: none;
+        border-radius: 10px;
+        
+        background-color: lightyellow;
+    
+    }
+    .depend-donation1{
+        display: flex;
+    }
+    .donation1-img{
+        margin-left: 10%;
+        height: 70%;
+        width:60%;
+    }
+    .donation2-img{
+        
+            margin-right: 5%;
+            height: 60%;
+            width:60%;
+        }
+
+    .subscribe-button{
+ 
+            text-decoration: none;
+            background-color: tomato;
+            padding: 10px;
+            background-image: linear-gradient( tomato);
+            color:white;
+            font-weight: 400px;
+            cursor: pointer;
+            border: 5px;
+            
+
+
+    }
+    #email-background{
+        margin: -5px;
+        height: 30px;
+        width: 300px;
+    }
+    .email-background-color{
+
+        width: 600px;
+        height: 200px;
+        background-color: rgba(253, 166, 4, 0.253);
+        margin-left: 25%;
+        margin-top: 50px;
+        margin-right: 25%px;
+        margin-bottom: 100px;
+    
+    }
+    .footer-color{
+        background-color: black;
+    }
+    .footer1{
+        text-align: center;
+        color: tomato;
+    }
+    .footer2{
+        text-align: center;
+        color: white;
+    }
+
+
+
+
